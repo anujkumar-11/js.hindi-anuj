@@ -57,6 +57,32 @@ const bigNumber = 3456789754n
 // dataType of all non_primitive data type is "Object"
 
 
+// ***************************************************
+           //memory
+   
+ // stack (all the primitive value is found in stack) in this we are given only copy not reference
+     
+      let myYoutubename = "hiteshchoudhary.com"
+      let anothername = myYoutubename;
+        anothername = "chaiaurcode"
+
+        console.log(myYoutubename)
+        console.log(anothername)
+
+
+
+ // Heap ( used in non-primitiv type ) is this reference is given 
+
+      let userOne = {
+        email: "user@google.com",
+        upi : "user@ybl"
+      }
+
+      let userTwo = userOne
+      userTwo.email = "hitesh@google.com"
+
+      console.log(userOne.email)
+      console.log(userTwo.email);
 
  
 
