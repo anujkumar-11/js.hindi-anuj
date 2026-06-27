@@ -10,6 +10,7 @@ const mySym = Symbol("key1")
 const JsUser = {
     name: "Hitesh",
     [mySym]: "myKey1",
+    "full Name":"Anuj Yadav",
     age : 18, 
     location: "jaipur",
     email : "hitesh@google.com",
