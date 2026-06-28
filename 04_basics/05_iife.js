@@ -12,4 +12,5 @@
 
   ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
-  })('hitesh')
+  })('hitesh')   // hitesh => parameter passed
+   
