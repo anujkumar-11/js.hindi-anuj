@@ -30,6 +30,18 @@ console.log("result : ", result )
 
 
 function loginUserMessage(username="sam"){  // username ="sam" default value 
+    if(username === undefined){  // default value de diye hai to is me kabhi aaiange hi nhi 
+        console.log("Please enter a username");
+        return 
+    }
+    return `${username} just logged in`
+
+}
+
+
+ console.log(loginUserMessage("hitesh"));  
+
+function loginUserMessage(username){  
     if(username === undefined){
         console.log("Please enter a username");
         return 
@@ -38,7 +50,7 @@ function loginUserMessage(username="sam"){  // username ="sam" default value
 
 }
 
- console.log(loginUserMessage("hitesh"));  // jb isme koi value nhi pass karenge to undefined aaiga
+ console.log(loginUserMessage("hitesh")); // jb isme koi value nhi pass karenge to undefined aaiga
 
 
 
