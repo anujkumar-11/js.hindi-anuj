@@ -10,7 +10,7 @@
 // // isiliye var ka use nhi karte hai 
 
 
-// closer => child fuction hai parents ke element ko access kr pata hai 
+// closer =>for nested function child fuction hai parents ke element ko access kr pata hai 
 
 // nested_scope
 
